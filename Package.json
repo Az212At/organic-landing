@@ -1,0 +1,12 @@
+{
+  "name": "static-landing",
+  "private": true,
+  "scripts": {
+    "scss": "sass src/scss/index.scss css/style.css --no-source-map",
+    "dev": "sass --watch src/scss/index.scss css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  },
+  "build": "sass src/scss/index.scss css/style.css --no-source-map --style=compressed"
+}

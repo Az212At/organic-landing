@@ -1,0 +1,71 @@
+@use "../variables" as *;
+
+.the-footer {
+  padding: 100px 0;
+  background-color: $footer-bg-color;
+  color: $white-color;
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  &__left-column {
+    width: 180px;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $white-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__text {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $white-color;
+  }
+
+  &__address {
+    font-style: normal;
+  }
+
+  &__list {
+    margin-top: 15px;
+  }
+
+  &__list-item {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__right-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .the-footer {
+    padding: 50px 0;
+  }
+}

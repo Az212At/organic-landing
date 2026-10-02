@@ -4,6 +4,8 @@
 
 **Демо:** https://Az212At.github.io/organic-landing/
 
+**Дизайн-макет (Figma):** [посмотреть](https://www.figma.com/design/2P83TIxRyBwfERmx8Dygz3/Organika?node-id=0-1)
+
 ## Технологии
 
 - HTML5 (семантические теги: `header`, `nav`, `main`, `section`, `article`, `aside`, `address`, `footer`)

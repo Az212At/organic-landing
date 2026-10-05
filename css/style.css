@@ -113,7 +113,7 @@ a:focus-visible {
   top: 30px;
   left: 30px;
 }
-.the-header__logo img {
+.the-header__logo-img {
   display: block;
 }
 
@@ -206,6 +206,8 @@ a:focus-visible {
 }
 .the-main__right-link {
   color: #737c85;
+}
+.the-main__right-link, .the-main__right-link:visited, .the-main__right-link:hover {
   text-decoration: underline;
 }
 
@@ -253,11 +255,8 @@ a:focus-visible {
 .the-footer__link:hover {
   text-decoration: underline;
 }
-.the-footer__text {
-  display: block;
-  font-size: 14px;
-  line-height: 1.2;
-  color: #ffffff;
+.the-footer__address {
+  font-style: normal;
 }
 .the-footer__list {
   margin-top: 15px;
